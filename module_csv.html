@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>BeforData’s documentation! &#8212; BeforData 0.2.5 documentation</title>
+    <title>Module: csv &#8212; BeforData 0.2.5 documentation</title>
   
   
   
@@ -41,11 +41,10 @@
     <script src="_static/documentation_options.js?v=cb850272"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'module_csv';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Usage" href="usage.html" />
+    <link rel="prev" title="Module: tools" href="module_tools.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -103,7 +102,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="index.html">
   
   
   
@@ -131,7 +130,7 @@
 </li>
 
 
-<li class="nav-item ">
+<li class="nav-item current active">
   <a class="nav-link nav-internal" href="api.html">
     API Reference
   </a>
@@ -194,10 +193,8 @@
       
       
       
-        
-      
       <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -219,7 +216,7 @@
 </li>
 
 
-<li class="nav-item ">
+<li class="nav-item current active">
   <a class="nav-link nav-internal" href="api.html">
     API Reference
   </a>
@@ -247,6 +244,21 @@
     
   </div>
   
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="beforrecord.html">BeForRecord</a></li>
+<li class="toctree-l1"><a class="reference internal" href="beforepochs.html">BeForEpochs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="module_tools.html">Module: tools</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module: csv</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
   </div>
@@ -262,7 +274,34 @@
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article d-print-none"></div>
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="api.html" class="nav-link">API Reference</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Module: csv</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
               
               
               
@@ -270,38 +309,57 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="befordata-s-documentation">
-<h1>BeforData’s documentation!<a class="headerlink" href="#befordata-s-documentation" title="Link to this heading">#</a></h1>
-<p>Data structure for handling behavioural force data</p>
-<p><a class="reference external" href="https://github.com/lindemann09/befordata/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/lindemann09/befordata" /></a> <a class="reference external" href="https://pypi.org/project/befordata/"><img alt="PyPI" src="https://img.shields.io/pypi/v/befordata?style=flat" /></a></p>
-<p>GitHub: <a class="github reference external" href="https://github.com/lindemann09/befordata">lindemann09/befordata</a></p>
-<section id="install-via-pip">
-<h2>Install via pip<a class="headerlink" href="#install-via-pip" title="Link to this heading">#</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">befordata</span>
-</pre></div>
-</div>
-<p>(c) Oliver Lindemann</p>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#create-beforrecord-from-csv-file">Create BeForRecord from csv-file</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#epochs-based-representation">Epochs-based representation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#pyarrow-format">Pyarrow format</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usage.html#example-of-the-data-preprocessing-of-experimental-data-with-design">Example of the data preprocessing of experimental data with design</a></li>
+  <section id="module-csv">
+<h1>Module: csv<a class="headerlink" href="#module-csv" title="Link to this heading">#</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="befordata.csv.read_csv_as_befordata">
+<span class="sig-prename descclassname"><span class="pre">befordata.csv.</span></span><span class="sig-name descname"><span class="pre">read_csv_as_befordata</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sampling_rate</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sessions</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_column</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">meta</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">encoding</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'utf-8'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">comment_char</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'#'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#befordata.csv.read_csv_as_befordata" title="Link to this definition">#</a></dt>
+<dd><p>Read CSV file as befordata</p>
+<p>The function can handle comments as well as compressed CSVs, if they end
+with <cite>.csv.xz</cite> or <cite>.csv.gz</cite></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>file_path</strong> (<em>_description_</em>)</p></li>
+<li><p><strong>sampling_rate</strong> (<em>_description_</em>)</p></li>
+<li><p><strong>columns</strong> (<em>_description_. Defaults to None.</em>)</p></li>
+<li><p><strong>sessions</strong> (<em>_description_. Defaults to None.</em>)</p></li>
+<li><p><strong>time_column</strong> (<em>_description_. Defaults to None.</em>)</p></li>
+<li><p><strong>meta</strong> (<em>_description_. Defaults to None.</em>)</p></li>
+<li><p><strong>encoding</strong> (<em>_description_. Defaults to &quot;utf-8&quot;.</em>)</p></li>
+<li><p><strong>comment_char</strong> (<em>_description_. Defaults to &quot;#&quot;.</em>)</p></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="api.html">API Reference</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="beforrecord.html">BeForRecord</a></li>
-<li class="toctree-l2"><a class="reference internal" href="beforepochs.html">BeForEpochs</a></li>
-<li class="toctree-l2"><a class="reference internal" href="module_tools.html">Module: tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="module_csv.html">Module: csv</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api.html#indices-and-tables">Indices and tables</a></li>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="beforrecord.html#befordata.BeForRecord" title="befordata.BeForRecord">BeForRecord</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="befordata.csv.read_csv">
+<span class="sig-prename descclassname"><span class="pre">befordata.csv.</span></span><span class="sig-name descname"><span class="pre">read_csv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">columns</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">encoding</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'utf-8'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">comment_char</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'#'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#befordata.csv.read_csv" title="Link to this definition">#</a></dt>
+<dd><p>Reads CSV file</p>
+<p>The function can handle comments as well as compressed CSVs, if they end
+with <cite>.csv.xz</cite> or <cite>.csv.gz</cite></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>file_path</strong> (<em>str</em><em> | </em><em>Path</em>) – the path to the CSV file. If file end with <cite>.csv.xz</cite> or <cite>.csv.gz</cite>,
+decompression will be used</p></li>
+<li><p><strong>columns</strong> (<em>str</em><em> | </em><em>list</em><em>[</em><em>str</em><em>]</em><em>, </em><em>Optional</em>) – the columns that should be read. If no columns are specified all columns
+are read</p></li>
+<li><p><strong>encoding</strong> (<em>str</em><em>, </em><em>optional</em>) – file encoding, default=”utf-8”,</p></li>
+<li><p><strong>comment_char</strong> (<em>str</em><em>, </em><em>Optional</em>) – line starting with character or string will be treated as comments and
+returned as a list of strings.</p></li>
 </ul>
-</li>
-</ul>
-</div>
-</section>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>pandas.DataFrame and list[str] with all comments</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
@@ -314,14 +372,14 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="right-next"
-       href="usage.html"
-       title="next page">
+    <a class="left-prev"
+       href="module_tools.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Usage</p>
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Module: tools</p>
       </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -342,14 +400,15 @@
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#install-via-pip">Install via pip</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#befordata.csv.read_csv_as_befordata"><code class="docutils literal notranslate"><span class="pre">read_csv_as_befordata()</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#befordata.csv.read_csv"><code class="docutils literal notranslate"><span class="pre">read_csv()</span></code></a></li>
 </ul>
   </nav></div>
 
   <div class="sidebar-secondary-item">
 
   <div class="tocsection sourcelink">
-    <a href="_sources/index.rst.txt">
+    <a href="_sources/module_csv.rst.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>
